@@ -53,7 +53,7 @@
         <div class="card-header">
             <div>
                 <h2 class="card-title">Pendaftar terbaru</h2>
-                <p class="page-subtitle">Lima pendaftaran yang masuk paling baru.</p>
+                
             </div>
             <a href="{{ route('admin.enrollments.all') }}" class="btn-custom btn-custom-outline-primary btn-custom-sm">Semua pendaftar</a>
         </div>
