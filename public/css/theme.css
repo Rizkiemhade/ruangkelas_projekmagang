@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --bs-body-bg: #F4F6F5;
+    --bs-body-font-family: 'Plus Jakarta Sans', sans-serif;
+
+    --brand-forest-dark: #051C12;
+    --brand-forest-medium: #072F1F;
+    --brand-forest-light: #1A3E30;
+    --brand-lime: #B4F105;
+    --brand-lime-hover: #c1f824;
+    --brand-lime-translucent: rgba(180, 241, 5, 0.15);
+
+    --text-main: #0B130F;
+    --text-muted-green: #6C7E75;
+    --text-sidebar-muted: #879A91;
+
+    --card-background: #FFFFFF;
+    --border-light: #E9EFEF;
+    --border-dark-green: rgba(255, 255, 255, 0.1);
+
+    --radius-xxl: 24px;
+    --radius-xl: 18px;
+    --radius-lg: 14px;
+    --radius-md: 10px;
+    --radius-sm: 6px;
+
+    --shadow-sm: 0 2px 8px rgba(11, 19, 15, 0.02);
+    --shadow-md: 0 10px 30px rgba(11, 19, 15, 0.04);
+    --shadow-lg: 0 20px 50px rgba(11, 19, 15, 0.08);
+
+    --ink: var(--text-main);
+    --muted: var(--text-muted-green);
+    --green: var(--brand-forest-medium);
+    --green-dark: var(--brand-forest-dark);
+    --mint: #EAF2E9;
+    --paper: var(--bs-body-bg);
+    --line: var(--border-light);
+    --coral: var(--brand-lime);
+}
+
+body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--bs-body-font-family);
+}
+
+.button,
+.course-card,
+.filter-bar,
+.nav-admin,
+.article-card,
+.article-detail-art {
+    border-radius: var(--radius-lg);
+}
+
+.article-card-art {
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.hero h1 span,
+.article-hero h1 span {
+    color: var(--brand-lime);
+}
+
+.eyebrow-dot,
+.proof-avatars,
+.art-icon,
+.art-note span,
+.art-spark {
+    color: var(--brand-lime);
+}
+
+.art-card-main {
+    background: var(--mint);
+    color: var(--green-dark);
+}
+
+.art-line {
+    background: var(--brand-forest-medium);
+}
+
+.about-band,
+.article-callout {
+    background: var(--mint);
+}
